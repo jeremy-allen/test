@@ -8,9 +8,8 @@
 #
 
 library(shiny)
-library(here)
 
-#rsconnect::writeManifest(appDir = here("git-demo-app"))
+rsconnect::writeManifest(appDir = "git-demo-app")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(

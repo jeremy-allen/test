@@ -352,6 +352,35 @@
         "Built": "R 4.0.3; x86_64-pc-linux-gnu; 2021-02-11 21:17:51 UTC; unix"
       }
     },
+    "here": {
+      "Source": "REPO_NAME",
+      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/latest",
+      "description": {
+        "Package": "here",
+        "Title": "A Simpler Way to Find Your Files",
+        "Version": "1.0.1",
+        "Date": "2020-12-13",
+        "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"krlmlr+r@mailbox.org\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\",\n             email = \"jenny@rstudio.com\",\n             comment = c(ORCID = \"0000-0002-6983-2759\")))",
+        "Description": "Constructs paths to your project's files.\n    Declare the relative path of a file within your project with 'i_am()'.\n    Use the 'here()' function as a drop-in replacement for 'file.path()',\n    it will always locate the files relative to your project root.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://here.r-lib.org/, https://github.com/r-lib/here",
+        "BugReports": "https://github.com/r-lib/here/issues",
+        "Imports": "rprojroot (>= 2.0.2)",
+        "Suggests": "conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,\nrlang, rmarkdown, testthat, uuid, withr",
+        "VignetteBuilder": "knitr",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1.9000",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-12-13 06:59:33 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>),\n  Jennifer Bryan [ctb] (<https://orcid.org/0000-0002-6983-2759>)",
+        "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+        "Repository": "RSPM",
+        "Date/Publication": "2020-12-13 07:30:02 UTC",
+        "Built": "R 4.0.3; ; 2020-12-14 10:45:20 UTC; unix"
+      }
+    },
     "htmltools": {
       "Source": "REPO_NAME",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/latest",
@@ -658,6 +687,34 @@
         "Built": "R 4.0.3; x86_64-pc-linux-gnu; 2021-02-11 21:16:54 UTC; unix"
       }
     },
+    "rprojroot": {
+      "Source": "REPO_NAME",
+      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/latest",
+      "description": {
+        "Package": "rprojroot",
+        "Title": "Finding Files in Project Subdirectories",
+        "Version": "2.0.2",
+        "Authors@R": "\n    person(given = \"Kirill\",\n           family = \"M\\u00fcller\",\n           role = c(\"aut\", \"cre\"),\n           email = \"krlmlr+r@mailbox.org\",\n           comment = c(ORCID = \"0000-0002-1416-3412\"))",
+        "Description": "Robust, reliable and flexible paths to files below\n    a project root. The 'root' of a project is defined as a directory that\n    matches a certain criterion, e.g., it contains a certain regular file.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://rprojroot.r-lib.org/, https://github.com/r-lib/rprojroot",
+        "BugReports": "https://github.com/r-lib/rprojroot/issues",
+        "Depends": "R (>= 3.0.0)",
+        "Suggests": "covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=\n3.0.0), withr",
+        "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "RoxygenNote": "7.1.1.9000",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-11-15 13:03:34 UTC; kirill",
+        "Author": "Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>)",
+        "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+        "Repository": "RSPM",
+        "Date/Publication": "2020-11-15 13:30:03 UTC",
+        "Built": "R 4.0.3; ; 2021-02-11 21:23:04 UTC; unix"
+      }
+    },
     "sass": {
       "Source": "REPO_NAME",
       "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/latest",
@@ -799,7 +856,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "c602f0c3d262504501d41eb20688e08c"
+      "checksum": "e329d559d8c5b738ca4de8b9aced708a"
     }
   },
   "users": null
